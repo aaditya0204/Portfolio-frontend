@@ -35,7 +35,7 @@ function App() {
   const [theme, setTheme] = useState('light');
   const [userPreferences, setUserPreferences] = useState({
     name: '',
-    experience: 'full', // 'full', 'moderate', 'simple'
+    experience: 'full', 
     mood: 'neutral',
     playMusic: false
   });
