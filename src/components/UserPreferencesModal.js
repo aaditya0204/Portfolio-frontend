@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiX, FiMusic, FiVolume2, FiVolumeX } from 'react-icons/fi';
+import { FiX , FiVolume2, FiVolumeX } from 'react-icons/fi';
 
 const ModalOverlay = styled(motion.div)`
   position: fixed;

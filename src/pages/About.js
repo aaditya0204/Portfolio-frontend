@@ -127,63 +127,63 @@ const SkillList = styled.ul`
   }
 `;
 
-const TimelineContainer = styled.div`
-  position: relative;
+// const TimelineContainer = styled.div`
+//   position: relative;
   
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 2px;
-    background-color: ${({ theme }) => theme.border};
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     width: 2px;
+//     background-color: ${({ theme }) => theme.border};
     
-    @media (max-width: 768px) {
-      left: 20px;
-    }
-  }
-`;
+//     @media (max-width: 768px) {
+//       left: 20px;
+//     }
+//   }
+// `;
 
-const TimelineItem = styled(motion.div)`
-  position: relative;
-  padding-left: 2rem;
-  padding-bottom: 3rem;
+// const TimelineItem = styled(motion.div)`
+//   position: relative;
+//   padding-left: 2rem;
+//   padding-bottom: 3rem;
   
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -8px;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: ${({ theme }) => theme.primary};
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: -8px;
+//     width: 18px;
+//     height: 18px;
+//     border-radius: 50%;
+//     background-color: ${({ theme }) => theme.primary};
     
-    @media (max-width: 768px) {
-      left: 12px;
-    }
-  }
+//     @media (max-width: 768px) {
+//       left: 12px;
+//     }
+//   }
   
-  @media (max-width: 768px) {
-    padding-left: 3rem;
-  }
-`;
+//   @media (max-width: 768px) {
+//     padding-left: 3rem;
+//   }
+// `;
 
-const TimelineDate = styled.div`
-  font-weight: 600;
-  color: ${({ theme }) => theme.primary};
-  margin-bottom: 0.5rem;
-`;
+// const TimelineDate = styled.div`
+//   font-weight: 600;
+//   color: ${({ theme }) => theme.primary};
+//   margin-bottom: 0.5rem;
+// `;
 
-const TimelineTitle = styled.h3`
-  margin-bottom: 0.5rem;
-`;
+// const TimelineTitle = styled.h3`
+//   margin-bottom: 0.5rem;
+// `;
 
-const TimelineCompany = styled.div`
-  font-style: italic;
-  margin-bottom: 1rem;
-`;
+// const TimelineCompany = styled.div`
+//   font-style: italic;
+//   margin-bottom: 1rem;
+// `;
 
 const About = () => {
   const containerVariants = {
