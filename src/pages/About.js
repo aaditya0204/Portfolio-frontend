@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { FiCode, FiLayers, FiServer, FiDatabase, FiTool, FiUsers } from 'react-icons/fi';
+import { FiCode, FiLayers, FiServer, FiDatabase, FiTool } from 'react-icons/fi';
 import profilePic from '../assets/PROFILE_PIC.jpg';
 
 const AboutContainer = styled.div`

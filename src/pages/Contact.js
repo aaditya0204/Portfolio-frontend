@@ -226,7 +226,7 @@ const Contact = () => {
     
     try {
       // Send data to the server
-      const response = await axios.post('/api/contact', formData);
+      await axios.post('/api/contact', formData);
       
       setLoading(false);
       setFormStatus({
@@ -251,23 +251,13 @@ const Contact = () => {
           message: '',
         });
       }, 5000);
-      
     } catch (error) {
       setLoading(false);
       setFormStatus({
         submitted: true,
         success: false,
-        message: error.response?.data?.message || 'Something went wrong. Please try again later.',
+        message: 'Failed to send message. Please try again later.',
       });
-      
-      // Reset error message after 5 seconds
-      setTimeout(() => {
-        setFormStatus({
-          submitted: false,
-          success: false,
-          message: '',
-        });
-      }, 5000);
     }
   };
   

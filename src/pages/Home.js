@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FiArrowRight, FiCheck } from 'react-icons/fi';
+import { FiArrowRight } from 'react-icons/fi';
 
 // Components
 import UserPreferencesModal from '../components/UserPreferencesModal';
