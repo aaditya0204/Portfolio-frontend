@@ -1,32 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/static/(.*)",
-      "destination": "/static/$1"
-    },
-    {
-      "source": "/favicon.ico",
-      "destination": "/favicon.ico"
-    },
-    {
-      "source": "/manifest.json",
-      "destination": "/manifest.json"
-    },
-    {
-      "source": "/logo192.png",
-      "destination": "/logo192.png"
-    },
-    {
-      "source": "/logo512.png",
-      "destination": "/logo512.png"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
   ],
-  "buildCommand": "CI=false npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "build",
-  "framework": "create-react-app",
-  "installCommand": "npm install"
+  "framework": "create-react-app"
 } 
